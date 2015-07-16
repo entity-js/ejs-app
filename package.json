@@ -1,0 +1,31 @@
+{
+  "name": "ejs-app",
+  "description": "Provides the eJS app.",
+  "keywords": [
+    "EntityJS - Components",
+    "App"
+  ],
+  "author": "Orgun109uk <orgun109uk@gmail.com> (http://my-site.com/)",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/entity-js/ejs-app.git"
+  },
+  "scripts": {
+    "test": "mocha ./tests/",
+    "eslint": "eslint index.js ./lib ./tests",
+    "jshint": "jshint index.js ./lib ./tests"
+  },
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "compression": "^1.5.1",
+    "ejs-listener": "git://github.com/entity-js/ejs-listener.git#0.0.2",
+    "ejs-sortby": "git://github.com/entity-js/ejs-sortby.git#0.0.2",
+    "ejs-static": "git://github.com/entity-js/ejs-static.git#0.0.1",
+    "escape-html": "^1.0.2",
+    "on-finished": "^2.3.0",
+    "router": "^1.1.2",
+    "serve-static": "^1.10.0",
+    "unpipe": "^1.0.0"
+  }
+}
